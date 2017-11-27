@@ -1,0 +1,38 @@
+{
+  "name": "bartlomiejbeta/di-env-loader-bundle",
+  "description": "",
+  "type": "symfony-bundle",
+  "keywords": [
+    "dependency injection",
+    "env",
+    "loader"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bartłomiej Beta",
+      "homepage": "https://github.com/bartlomiejbeta"
+    },
+    {
+      "name": "Maciej Szkamruk",
+      "homepage": "https://github.com/ex3v"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "BartB\\DIEnvLoaderBundle\\": ""
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "symfony/symfony": "^3.0|^3.2"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "~2.7",
+    "phpunit/phpunit": "^5.4|^6.0"
+  },
+  "config": {
+    "bin-dir": "bin",
+    "sort-packages": true
+  }
+}
